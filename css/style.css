@@ -1,0 +1,353 @@
+/* geral */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Open Sans', sans-serif;
+}
+
+h2 {
+  font-size: 30px;
+}
+
+/* navbar */
+#navbar {
+  background-color: #3681c7;
+  color: #fff;
+  padding: 0px 15px;
+  height: 60px;
+}
+
+#navbar h2, #navbar ul, #navbar-list li, #navbar nav {
+  display: inline-block;
+}
+
+#navbar h2 {
+  margin: 0;
+  line-height: 60px;
+  margin-left: 55px;
+}
+
+#navbar img {
+  height: 40px;
+  transform: rotate(45deg);
+  position: absolute;
+  top: 10px;
+}
+
+#navbar nav {
+  float: right;
+}
+
+#navbar ul {
+  margin-top: 22px;
+}
+
+#navbar li {
+  margin: 0 10px;
+}
+
+#navbar-list li a {
+  text-decoration: none;
+  color: #fff;
+}
+
+#navbar-list li a:hover {
+  border-bottom: 1px solid #fff;
+}
+
+/* banner */
+#main-banner {
+  height: 70vh;
+  background-image: url("../img/bg-projeto.jpg");
+  background-size: cover;
+  padding-top: 15vh;
+}
+
+#banner-info {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  color: #fff;
+  padding: 50px;
+}
+
+#banner-info img {
+  height: 120px;
+  border-radius: 50%;
+  background-color: #3681c7;
+  margin: 30px 0;
+}
+#banner-info a {
+  background-color: #3681c7;
+  font-weight: bold;
+  max-width: 200px;
+  margin: 0 auto;
+  padding: 15px;
+}
+
+#banner-info button {
+  background-color: transparent;
+  border: none;
+  color: #fff;
+  cursor: pointer;
+}
+
+/* sobre */
+
+#about-section {
+  text-align: center;
+  background-color: #3681c7;
+  color: #fff;
+  padding-top: 50px;
+  height: 350px;
+}
+
+#about-section h2 {
+  margin-bottom: 20px;
+}
+
+#about-section p {
+  max-width: 650px;
+  margin: 0 auto;
+  line-height: 30px;
+}
+
+/* skills */
+
+#skills-section {
+  margin-top: -100px;
+  background-color: #fff;
+  width: 80%;
+  margin: 0 auto;
+  border: 1px solid #ddd;
+  border-radius: 10px;
+}
+
+#skills-section .container {
+  display: flex;
+  justify-content: center;
+}
+
+.skills-container {
+  text-align: center;
+  padding: 60px 25px;
+}
+
+.central {
+  border-left: 1px solid #ccc;
+  border-right: 1px solid #ccc;
+}
+
+.skills-container h3 {
+  color: #3681c7;
+  font-size: 20px;
+}
+
+.skills-container img {
+  height: 60px;
+  padding: 15px;
+  margin-bottom: 25px;
+  border-top: 1px solid #3681c7;
+  border-left: 1px solid #3681c7;
+  border-bottom: 4px solid #3681c7;
+  border-right: 4px solid #3681c7;
+}
+
+.skills-container .subtitulo {
+  font-weight: bold;
+  color: #3681c7;
+  margin: 50px 0 15px 0;
+}
+
+.skills-container p {
+  line-height: 25px;
+}
+
+/* projetos */
+
+#projetos-inicio {
+  text-align: center;
+  padding-top: 50px;
+}
+
+#projetos-inicio h2 {
+  color: #3681c7;
+  margin-bottom: 30px;
+}
+
+#projetos-inicio p {
+  margin-bottom: 50px;
+}
+
+#projetos-inicio a {
+  font-weight: bold;
+  color: #3681c7;
+}
+
+.projetos-container {
+  display: flex;
+  justify-content: space-around;
+  max-width: 1200px;
+  margin: 0 auto;
+  margin-bottom: 50px;
+}
+
+.projeto-box {
+  min-width: 400px;
+  margin: 0 25px;
+  height: 250px;
+  border-right: 2px solid #3681c7;
+  border-bottom: 2px solid #3681c7;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-around;
+}
+
+/* rodape */
+footer {
+  padding: 50px 0;
+  background-color: #3681c7;
+  color: #fff;
+  text-align: center;
+}
+
+footer img {
+  height: 50px;
+  margin: 30px 0;
+}
+
+footer p {
+  margin-top: 25px;
+}
+
+footer form {
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+footer input, footer textarea {
+  border: none;
+  padding: 15px;
+  margin-bottom: 20px;
+  width: 100%;
+  display: block;
+}
+
+footer .detalhes {
+  font-weight: bold;
+}
+
+#back_to_top {
+  position: fixed;
+  right: 5%;
+  bottom: 250px;
+  background-color: #2e2727;
+  padding: 1rem 1.5rem;
+  border-radius: 5px;
+  color: #ccc;
+  text-decoration: none;
+}
+
+/* responsivo celulares */
+ @media screen and (max-width: 450px) {
+
+   /* geral */
+   p, input, textarea, #navbar-list li a {
+    font-size: 1.2rem;
+   }
+
+   /*navbar */ 
+   #navbar h2 {
+    display: none;
+   }
+
+   #navbar img {
+    top: 9px;
+   }
+
+   #navbar ul {
+    margin-top: 1.1rem;
+   }
+
+   /* banner */
+   #main-banner {
+    height: 80vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+   }
+
+   #banner-info {
+    width: 60%;
+   }
+
+   #banner-info p {
+    margin: 0;
+    width: auto;
+   }
+
+   /* sobre */
+   #about-section {
+    padding: 2rem 0 50px 0;
+    height: auto;
+   }
+
+   /* skills */
+
+   #skills-section {
+    margin-top: -35px;
+    width: 90%;
+   }
+
+   #skills-section .container {
+    flex-direction: column;
+   }
+
+   .skills-container h3, .skills-container, .subtitulo {
+    font-size: 1.3rem;
+   }
+
+   .skills-container {
+    padding: 25px;
+   }
+
+   .skills-container .central {
+     border-top: 1px solid #ddd;
+     border-bottom: 1px solid #ddd;
+   }
+
+   /* projetos */
+   #projetos-inicio h2, #projetos-inicio p {
+    width: 85%;
+    margin: 0 auto;
+   }
+   .projetos-container  {
+    flex-direction: column;
+    margin-bottom: 0;
+   }
+
+   .projeto-box {
+      margin-bottom: 2rem;
+      min-width: 300px;
+     
+   }
+
+   /*rodape*/
+
+   footer {
+    padding: 50px 15px;
+   }
+
+   footer form {
+    width: 100%;
+   }
+
+   .detalhes {
+    margin-top: 10px;
+    display: block;
+   }
+ }

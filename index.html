@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./css/style.css" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <script src="./js/index.js" defer></script>
+  <title>Meu portfólio</title>
+</head>
+<body>
+  <!-- navbar-->
+  <header id="navbar">
+    <img src="./img/shuriken.png" alt="Imagem shuriken" title="Shuriken" />
+    <h2>Maurício Marcelino</h2>
+    <nav>
+      <ul id="navbar-list">
+        <li><a href="#about-section">Sobre</a></li>
+        <li><a href="#projetos-inicio">Projetos</a></li>
+        <li><a href="#contato">Contato</a></li>
+      </ul>
+    </nav>
+  </header>
+  <!--Fim navbar-->
+  <main>
+    <!--Banner início-->
+    <div id="main-banner">
+      <div id="banner-info">
+        <h1>Olá, eu sou o Maurício Marcelino</h1>
+        <img src="./img/ninja.png" alt="Perfil Ninja" title="Ninja" />
+        <a href="./curriculo/Mauricio_Marcelino.pdf" download="Maurício-Marcelino.pdf">
+          <button type="button">Download Currículo</button>
+        </a>
+      </div>
+    </div>
+    <!--Banner fim-->
+    <!--about início-->
+    <section id="about-section">
+      <h2>Sobre o meu jeito de ser</h2>
+      <p>
+        Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsam modi aliquid doloremque molestiae nihil. Provident est dicta quidem non itaque expedita sint voluptatibus maxime dolores? Expedita facilis esse nulla eligendi?
+      </p>
+    </section>
+    <!--about fim-->
+  </main>
+  <!--skills início-->
+  <section id="skills-section">
+    <div class="container">
+      <div class="skills-container">
+        <img src="./img/weapon1.png" alt="Imagem 1" title="Imagem 1"/>
+        <h3>Desenvolvimento</h3>
+        <p>Minha maior paixão é desenvolver projetos back-end e web API</p>
+        <p class="subtitulo">Linguagens que utilizo</p>
+        <p>HTML, CCS, Javascript, React, C# e ASP.Net</p>
+        <p class="subtitulo">Projetos que posso desenvolver:</p>
+        <P> API's, Sites institucionais, aplicativos desktop, Web App</P>
+      </div>
+
+      <div class="skills-container central">
+        <img src="./img/weapon3.png" alt="Imagem 3" title="Imagem 3"/>
+        <h3>Soft Skills</h3>
+        <p>Busco sempre me desenvolver como pessoa</p>
+      </div>
+
+      <div class="skills-container">
+        <img src="./img/weapon2.png" alt="Imagem 2" title="Imagem 2"/>
+        <h3>Hard Skills</h3>
+        <p>Estou sempre conhecendo e apredendo novas habilidades</p>
+        <p class="subtitulo">Meus conhecimentos:</p>
+        <p>HTML, CSS, Javascript, React, SASS, C#, ASP.net, SQL server, MySQL e Java</p>
+      </div>
+    </div>
+  </section>
+  <!--skills fim-->
+  <!--projetos início-->
+  <section id="projetos-inicio">
+    <h2>Veja alguns dos meus projetos</h2>
+    <p>Aqui estão alguns dos meus projetos. Caso queira ver o meu repositóro <a href="https://github.com/marcostwelve">clique aqui</a>.</p>
+
+    <div class="projetos-container">
+      <div class="projeto-box">
+          <p>Formulário dinâmico</p>
+          <p>Tecnologias: React Chakra UI</p>
+          <a href="https://cadastro-silk.vercel.app/" target="_blank">Acesse o projeto online</a>
+      </div>
+
+      <div class="projeto-box">
+        <p>Busca CEP</p>
+        <p>Tecnologias: React</p>
+        <a href="https://buscador-beta.vercel.app/" target="_blank">Acesse o projeto online</a>
+      </div>
+
+      <div class="projeto-box">
+        <p>Gerador CPF</p>
+        <p>Tecnologias: HTML, CSS, Javascript</p>
+        <a href="https://marcostwelve.github.io/geradorCPF/">Acesse o projeto online</a>
+      </div>
+    </div>
+
+    <div class="projetos-container">
+      <div class="projeto-box">
+        <p>Gerador de número de celurar</p>
+        <p>Tecnologias: HTML, CSS, Javascript</p>
+        <a href="https://gerador-celular.vercel.app/" target="_blank">Acesse o projeto online</a>
+      </div>
+      <div class="projeto-box">
+        <p>Gerador de senhas</p>
+        <p>Tecnologias: HTML, CSS, Javascript</p>
+        <a href="https://marcostwelve.github.io/geradorSenhas/" target="_blank">Acesse o projeto online</a>
+      </div>
+      <div class="projeto-box">
+        <p>Calculadora</p>
+        <p>Tecnologias: React</p>
+        <a href="https://desafio01-calculadora-rho.vercel.app/" target="_blank">Acesse o projeto online</a>
+      </div>
+    </div>
+
+    <div class="projetos-container">
+      <div class="projeto-box">
+        <p>API Banco de Horas</p>
+        <p>Tecnologias: C#, Entity Framework, SQL server</p>
+        <a href="https://github.com/marcostwelve/apiHorasBanco" target="_blank">Visite o repositório</a>
+      </div>
+      <div class="projeto-box">
+        <p>Sistema de empréstimo de livros</p>
+        <p>Tecnologias: C#, ASP.Net Core, Entity Framework, SQL server</p>
+        <a href="https://github.com/marcostwelve/SistemaEmprestimo" target="_blank">Visite o repositório</a>
+      </div>
+      <div class="projeto-box">
+        <p>API Sistema de Saúde</p>
+        <p>Tecnologias: Java, Springboot, H2DB</p>
+        <a href="https://github.com/marcostwelve/springboot-plan-api" target="_blank">Visite o repositório</a>
+      </div>
+    </div>
+  </section>
+  <a href="#" id="back_to_top">Voltar ao topo</a>
+  <!--projetos fim-->
+
+  <!--rodape-início-->
+  <footer>
+    <h2>Me mande uma mensagem</h2>
+    <p>Caso queira falar sobre projetos e contração</p>
+    <img src="./img/ninja.png" alt="Perfil Ninja" title="Ninja" />
+    <form id="contato">
+      <input type="text" name="name" placeholder="Seu nome" />
+      <input type="email" name="email" placeholder="Seu e-mail" />
+      <textarea name="msg" placeholder="Digite uma mensagem"></textarea>
+      <input type="submit" value="enviar" />
+    </form>
+    <p>Desenvolvido por <span class="detalhes">Maurício Marcelino</span></p>
+  </footer>
+  <!--rodape´-fim-->
+</body>
+</html>
