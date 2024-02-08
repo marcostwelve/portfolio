@@ -251,6 +251,7 @@ footer .detalhes {
   border-radius: 5px;
   color: #ccc;
   text-decoration: none;
+  display: none;
 }
 
 /* responsivo celulares */
